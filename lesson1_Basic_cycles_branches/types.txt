@@ -1,0 +1,21 @@
+
+var a1 int8   // -128 -> 127, 1 byte
+var a2 int16  // -32768 -> 32767, 2 byte
+var a3 int32  // -2bil -> 2bill, 4 byte
+var a4 int64  // -9pent -> 9pent, 8 byte
+var a5 uint8  // 0 -> 255, 1 byte
+var a6 uint16 // 0 -> 65535, 2 byte
+var a7 uint32 // 0 -> 4 bill, 4 byte
+var a8 uint64 // 0 -> 18pent, 8 byte
+
+var a9 byte        // synonym int8
+var a10 rune       // synonym int32
+var a11 int        // int32 or int64
+var a12 uint       // uint32 or uint64
+var a13 float32    // 4 byte
+var a14 float64    // 8 byte
+var a15 complex64  //
+var a16 complex128 //
+
+var a17 bool    // true or false
+var name string //
